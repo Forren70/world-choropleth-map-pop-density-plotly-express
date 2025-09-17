@@ -34,11 +34,11 @@ The script generates an **interactive choropleth map** and saves it as:
 
 - `Population_density_map_by_country.html`
 
-You can open this file in any web browser to explore the **population density of each country**.  
+You can open this HTML file in any web browser to explore the **population density of each country**.  
 
 Below is a snapshot of the map:
 
-![World Population Density Map](Population_density_map_by_country.html)
+![World Population Density Map](WorldPopulationDensityByCountry2025Map.png)
 
 ## How to Use
 
