@@ -1,7 +1,7 @@
 # World Choropleth Map of Population Density (2025)
 
 This repository contains a Python project that creates an **interactive world choropleth map** 
-showing population density per square kilometer for the year 2025.
+showing the **population density of each country** (people per square kilometer) for 2025.
 
 ## Description
 
@@ -17,13 +17,16 @@ The project uses the following datasets:
 - **Original datasets from Gapminder**:  
   - `population_density_per_square_km.csv`  
   - `population_density_per_square_km.xlsx`  
-  These contain population density for all years, including 2025.
+  These were downloaded from [Gapminder Data](https://www.gapminder.org/data/) 
+  using the search term **"population density (per square km)"**.  
+  They contain population density for all countries and for all years, including 2025.
 
-- **Filtered datasets used by the script**:  
+- **Modified datasets for 2025 used by the script**:  
   - `population_density_per_square_km_2025.csv`  
   - `population_density_per_square_km_2025.xlsx`  
-  These files contain only the 2025 population density data 
-  and are used directly by the script.
+  These files were created from the original Gapminder datasets by removing all 
+  columns except two: the **country names** and the **population density for 2025**.  
+  All data for previous years were deleted.
 
 ## Output
 
@@ -31,8 +34,7 @@ The script generates an **interactive choropleth map** and saves it as:
 
 - `Population_density_map_by_country.html`
 
-You can open this file in any web browser to explore population density 
-visually across the world.  
+You can open this file in any web browser to explore the **population density of each country**.  
 
 Below is a snapshot of the map:
 
